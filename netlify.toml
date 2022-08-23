@@ -1,3 +1,7 @@
 [[edge_functions]]
   path = "/food.json"
   function = "food.json"
+
+[[edge_functions]]
+  path = "/*"
+  function = "correct-food-choices"

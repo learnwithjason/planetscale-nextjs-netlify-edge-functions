@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -16,6 +17,10 @@ export default function Home() {
         <h1 className={styles.title}>
           PlanetScale Serverless Driver on Next.js + Netlify Edge Functions
         </h1>
+
+        <p>
+          <Link href="/foods.html">See my favorite foods</Link>
+        </p>
       </main>
     </div>
   );
